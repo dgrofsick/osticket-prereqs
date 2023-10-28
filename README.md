@@ -124,5 +124,21 @@ In order to do this, open the control panel within vm1, select 'Programs', and c
 
 [X] IIS Management Console
 
--	From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
--	From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+-	From the Installation Files, download and install <b>PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</b>
+-	From the Installation Files, download and install the <b>Rewrite Module (rewrite_amd64_en-US.msi)</b>
+
+![Step 13](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/f1a5c54e-b383-4a11-8086-966de62f64f0)
+
+![Step 14](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/17d260e5-843f-40a6-8009-380f6254b5e3)
+
+![Step 15](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/1e68b62c-874b-4921-b26c-1a9586f45bc8)
+
+-	From the Installation Files, download <b>PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)</b> and unzip the contents into <b>C:\PHP</b>
+
+-	From the Installation Files, download and install <b>VC_redist.x86.exe.</b>
+
+![Step 16](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/9438cfcc-c648-4b58-a1a8-63e2207d0e2a)
+
+![Step 17](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/f02d25b3-1c31-4ccc-8898-75ef6567a7c4)
+
+![Step 18](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/0e8b246d-3f59-4bea-8be6-7e8b04ee79a5)
