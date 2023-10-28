@@ -97,3 +97,32 @@ Password12345.
 
 -	Click 'OK' when complete and select 'Yes' if a verification warning appears.
 
+<h2>Installing Files and Downloading osTicket</h2>
+
+![Step 10](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/b605c2f8-6525-47e3-8931-5913fa261cea)
+
+
+The Following steps will all take place within vm1.
+-	Provided below is the link containing all prerequisite files and programs needed to properly install osTicket:
+
+https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+
+
+![Step 11](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/1eaad5c5-d182-4551-9ca0-210449a54428)
+
+-	Install / Enable IIS in Windows WITH CGI and Common HTTP Features AND IIS Management Console
+
+In order to do this, open the control panel within vm1, select 'Programs', and click 'Turn Windows features on or off'.  From there select the following:
+
+⦁	World Wide Web Services -> Application Development Features ->
+
+[X] CGI
+
+[X] Common HTTP Features
+
+⦁	Internet Information Services -> Web Management Tools -> 
+
+[X] IIS Management Console
+
+-	From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+-	From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
