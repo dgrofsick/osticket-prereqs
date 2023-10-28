@@ -78,3 +78,22 @@ Username: osTuser (or whatever you choose)
 
 -  Once both the Basics and Networking tabs are complete, feel free to review any other tabs and select 'Review + create'.  Upon validation being completed, select 'Create'.
 
+![Step 5](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/c9b89330-32d6-4b1a-ad70-458783a503e9)
+
+![Step 6](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/56624a5b-85a0-4022-9f2e-e848eba77d3e)
+
+-	After deployment is complete, select 'Go to resource' to review your vm's information.
+
+![Step 7](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/eb246d7c-b3f7-4d00-886f-f5b4111276ec)
+
+-	Begin to type 'Remote Desktop Connection' in your Window's search bar and select the app.  Once it is open, copy vm1's public ip address into the 'Computer' drop down menu and click 'Connect'.
+
+![Step 8](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/ec060228-e700-4d35-8128-006f77ff7844)
+
+-	The credentials entered will match the ones you created within vm1: 
+
+Username: osTuser Password: 
+Password12345.  
+
+-	Click 'OK' when complete and select 'Yes' if a verification warning appears.
+
