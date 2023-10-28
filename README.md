@@ -139,25 +139,25 @@ In order to do this, open the control panel within vm1, select 'Programs', and c
 
 ![Step 16](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/9438cfcc-c648-4b58-a1a8-63e2207d0e2a)
 
+-	From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+
+	-	Typical Setup
+
 ![Step 17](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/f02d25b3-1c31-4ccc-8898-75ef6567a7c4)
+
+-	Launch Configuration Wizard (after install)
 
 ![Step 18](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/0e8b246d-3f59-4bea-8be6-7e8b04ee79a5)
 
-![Step 19](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/22c8be13-edc8-41ea-9565-a5c66e9a8e4c)
+-	Standard Configuration
 
--	For exercise purposes, use 'Password 1' for the root password.
+![Step 19](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/22c8be13-edc8-41ea-9565-a5c66e9a8e4c)
 
 ![Step 20](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/9f19b02c-e947-4e15-96d5-9cc2e2347e3e)
 
--	From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 
-	-	Typical Setup ->
+-	For exercise purposes, use 'Password 1' for the root password.
 
-	-	Launch Configuration Wizard (after install) ->
-
-	-	Standard Configuration ->
-
-	-	Password1
 
 ![Step 21](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/22bd3b9e-9efe-48ad-9a68-acd7dcca1e8f)
 
@@ -165,25 +165,25 @@ In order to do this, open the control panel within vm1, select 'Programs', and c
 
 ![Step 22](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/dbd6ea2d-cfeb-4f7e-9493-af6f60b88c3c)
 
+-	Register PHP from within IIS
+
+	-	Select 'PHP Manager' from the IIS Manager
+
 ![Step 23](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/ed3f2243-7251-4d54-b282-b25e8605be2d)
+
+ -	Click 'Registger new PHP version' ->
 
 ![Step 24](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/a19ec39a-ac9d-489a-8ccc-a8488632fc53)
 
--	Register PHP from within IIS
-
-	-	Select 'PHP Manager' from the IIS Manager ->
-
- 	-	Click 'Registger new PHP version' ->
-
- 	-	When prompted to find a destination, navigate to the PHP folder within (C:) and select 'php-cgi'
+-	When prompted to find a destination, navigate to the PHP folder within (C:) and select 'php-cgi'
 
   ![Step 25](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/344c773f-bd90-4891-ae9f-95c8acd393d5)
 
--	Reload IIS (Open IIS, Stop and Start the server).
+-	Reload IIS (Open IIS, Stop and Start the server or select Restart).
 
 ![Step 27](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/24c0f125-034e-48fb-beb3-61c326699be5)
 
--	Install osTicket v1.15.8
+-	Install <b>osTicket v1.15.8</b>
 
  	-	Download osTicket from the Installation Files Folder
 
