@@ -281,6 +281,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <br />
 
 -	Enable new permissions by selecting 'Add'
+
 ![Step 38](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/34f46ce1-a14e-4d50-96e4-e182668e4e06)
 
 <br />
@@ -317,24 +318,28 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 ![Step 44](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/ba1fc47e-558a-4232-9c69-029b1f90839a)
 
+<br />
+
+-	Create a new session using the root/Password1 combination made during the intitial MySQL installation.
+
+-	Connect to the session
 
 ![Step 45](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/7f5e0cf7-c48d-46f6-8e83-b2fad1e5693e)
 
 
 ![Step 46](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/66c2af48-e99e-47a9-9efd-d2730bc03b83)
 
--	Create a new session using the root/Password1 combination made during the intitial MySQL installation.
+<br />
 
--	Connect to the session
+-	Create a database called “osTicket” by right-clicking within the window to the lefthand side.
+
+	-	Click 'Create new' -> 'Database'
 
 ![Step 47](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/a5c402bd-2904-4d53-aa0e-b61f6b71bc4c)
 
 ![Step 48](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/056d0701-1f7a-4016-b8c5-a1128fabf062)
 
 
--	Create a database called “osTicket” by right-clicking within the window to the lefthand side.
-
-	-	Click 'Create new' -> 'Database'
 
 ![Step 49](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/929024a2-08cb-40cb-a483-de83c042c9f8)
 
