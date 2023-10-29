@@ -174,19 +174,26 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <br />
 
+-	Click <b>Registger new PHP version'</b>
+
 ![Step 23](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/ed3f2243-7251-4d54-b282-b25e8605be2d)
 
- -	Click 'Registger new PHP version' ->
+<br />
+
+-	When prompted to find a destination, navigate to the PHP folder within (C:) and select <b>php-cgi</b>
 
 ![Step 24](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/a19ec39a-ac9d-489a-8ccc-a8488632fc53)
 
--	When prompted to find a destination, navigate to the PHP folder within (C:) and select 'php-cgi'
+<br />
+
+-	Reload IIS
+	-	Open IIS, Stop and Start the server or select <b>Restart</b>
 
 ![Step 25](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/344c773f-bd90-4891-ae9f-95c8acd393d5)
 
--	Reload IIS (Open IIS, Stop and Start the server or select Restart).
+<br />
 
-![Step 27](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/24c0f125-034e-48fb-beb3-61c326699be5)
+<h3>osTicket</h3>
 
 -	Install <b>osTicket v1.15.8</b>
 
@@ -194,31 +201,42 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
  	-	Extract and copy “upload” folder to c:\inetpub\wwwroot
 
- 	-	Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+ 	-	Within c:\inetpub\wwwroot, rename the folder “upload” to “osTicket”
 
 -	Reload IIS (Open IIS, Stop and Start the server).
- 
-![Step 29](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/c4ee3994-16c7-4cbd-8099-3b1f51f51668)
+
+![Step 27](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/24c0f125-034e-48fb-beb3-61c326699be5)
+
+<br />
 
 -	From the lefthand side, go to sites -> Default -> osTicket
 
- 	-	On the right, click “Browse *:80”
+ 	-	On the right, click <b>Browse *:80</b>
+
+ 
+![Step 29](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/c4ee3994-16c7-4cbd-8099-3b1f51f51668)
+
+<br />
+
+-	Note that some extensions are not enabled
 
 ![Step 30](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/5caed72c-558b-4b5c-a636-3b9f97345415)
 
--	Note that some extensions are not enabled.
-
-![Step 31](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/23e815d5-b41c-4c1e-932e-be2c7a896280)
+<br />
 
 -	Go back to IIS, sites -> Default -> osTicket
 
-	-	Double-click PHP Manager
+	-	Double-click <b>PHP Manager</b>
+
+![Step 31](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/23e815d5-b41c-4c1e-932e-be2c7a896280)
+
+<br />
+
+-	Click <b>Enable or disable an extension</b>
 
 ![Step 32](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/36241a18-8746-470e-a0d4-95de9d874736)
 
--	Click “Enable or disable an extension”.
-
-![Step 33](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/3bfec129-1842-4601-aa26-f2fccadcfa15)
+<br />
 
 -	Enable the following:
 
@@ -228,52 +246,77 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 	-	php_opcache.dll
 
+![Step 33](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/3bfec129-1842-4601-aa26-f2fccadcfa15)
+
+<br />
+
+-	Refresh the osTicket site in your browse, observe the changes
+
+
 ![Step 34](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/8878dc98-6dbb-498a-b00f-dad435e13352)
 
--	Refresh the osTicket site in your browse, observe the changes.
-
-![Step 35](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/b7796642-b6ec-40fe-b78c-ce00e82f773e)
+<br />
 
 -	Rename: ost-config.php
 
- 	-	From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+ 	-	Locate the file within C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 
- 	-	To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+ 	-	Change from ost-<b>sample</b>config.php to <b>ost-config.php</b>
+
+![Step 35](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/b7796642-b6ec-40fe-b78c-ce00e82f773e)
+
+<br />
+
+-	Assign permissions within ost-config.php by right-clicking <b>ost-config.php</b> and selecting <b>Advanced</b>
 
 ![Step 36](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/9e2f941f-f794-4c0b-ac9e-0f6453b01d38)
 
--	Assign permissions within ost-config.php by right-clicking said file and selecting 'Advanced'.
-
-![Step 37](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/a79af6ec-74db-4224-bad7-ab9722eacca0)
+<br />
 
 -	Disable inheritance -> Remove All
 
+
+![Step 37](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/a79af6ec-74db-4224-bad7-ab9722eacca0)
+
+<br />
+
+-	Enable new permissions by selecting 'Add'
 ![Step 38](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/34f46ce1-a14e-4d50-96e4-e182668e4e06)
 
--	Enable new permissions by selecting 'Add'.
-
-![Step 39](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/c4f34930-7d6b-4e5f-86a0-c3e67d3b39b9)
+<br />
 
 -	Click 'Select a principal'.
 
-![Step 40](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/6b20c411-1bb1-450a-bfd1-01df076803d2)
+![Step 39](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/c4f34930-7d6b-4e5f-86a0-c3e67d3b39b9)
+
+<br />
 
 -	Enter 'Everyone' in the bottom text box -> click 'Check Names' -> Click 'Ok'.
 
-![Step 41](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/f81ab1f3-3235-4710-b24f-d8fa9fa2b6fa)
+![Step 40](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/6b20c411-1bb1-450a-bfd1-01df076803d2)
+
+<br />
 
 -	Enable Full control for 'Everyone' and confirm with 'OK' -> 'Apply' -> 'OK'.
 
+![Step 41](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/f81ab1f3-3235-4710-b24f-d8fa9fa2b6fa)
+
+<br />
+
+-	Continue setting up osTicket in the browser (click Continue)
+
 ![Step 43](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/4f9ef300-c2d3-4c9a-8361-b3177c4da744)
 
--	Continue Setting up osTicket in the browser (click Continue)
+<br />
 
-
-![Step 44](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/ba1fc47e-558a-4232-9c69-029b1f90839a)
+<h3>HeidiSQL</h3>
 
 -	From the Installation Files, download and install HeidiSQL.
 
 -	Open Heidi SQL
+
+![Step 44](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/ba1fc47e-558a-4232-9c69-029b1f90839a)
+
 
 ![Step 45](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/7f5e0cf7-c48d-46f6-8e83-b2fad1e5693e)
 
