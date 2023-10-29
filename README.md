@@ -100,62 +100,79 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 - In order to do this, open the control panel within vm1, select 'Programs', and click 'Turn Windows features on or off'.  From there select the following:
 
-	-	Click World Wide Web Services -> Application Development Features -> Check [X] CGI and [X] Common HTTP Features
+	-	Click Internet Information Services -> Web Management Tools -> Check [X] IIS Management Console
 
-	-	Internet Information Services -> Web Management Tools -> Check [X] IIS Management Console
+	-	Click World Wide Web Services -> Application Development Features -> Check [X] CGI and [X] Common HTTP Features
 
 
 ![Step 11](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/1eaad5c5-d182-4551-9ca0-210449a54428)
 
 <br />
 
+<h3>PHP Manager for ISS</h3>
+
 -	From the Installation Files, download and install <b>PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</b>.
+
+<h3>Rewrite Module</h3>
+
 -	From the Installation Files, download and install the <b>Rewrite Module (rewrite_amd64_en-US.msi)</b>.
 
+<h3>PHP 7.3.8</h3>
+
+-	Create the directory C:\PHP
 
 -	From the Installation Files, download <b>PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)</b> and unzip the contents into <b>C:\PHP</b>.
+
 ![Step 13](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/f1a5c54e-b383-4a11-8086-966de62f64f0)
 
 ![Step 14](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/17d260e5-843f-40a6-8009-380f6254b5e3)
 
 ![Step 15](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/1e68b62c-874b-4921-b26c-1a9586f45bc8)
 
+<br />
+
+<h3>VC_redist.86.exe</h3>
 
 -	From the Installation Files, download and install <b>VC_redist.x86.exe.</b>.
 
+<h3>MySQL 5.5.62</h3>
+
 -	From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 
-	-	Typical Setup
+	-	Select Typical Setup
+	-	Launch Configuration Wizard (after install)
+	-	Standard Configuration
 
 ![Step 16](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/9438cfcc-c648-4b58-a1a8-63e2207d0e2a)
 
-<br />
 
 ![Step 17](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/f02d25b3-1c31-4ccc-8898-75ef6567a7c4)
 
--	Launch Configuration Wizard (after install)
 
 ![Step 18](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/0e8b246d-3f59-4bea-8be6-7e8b04ee79a5)
 
--	Standard Configuration
+
+-	For exercise purposes, use 'Password 1' for the root password.
 
 ![Step 19](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/22c8be13-edc8-41ea-9565-a5c66e9a8e4c)
 
 ![Step 20](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/9f19b02c-e947-4e15-96d5-9cc2e2347e3e)
 
-
--	For exercise purposes, use 'Password 1' for the root password.
-
-
-![Step 21](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/22bd3b9e-9efe-48ad-9a68-acd7dcca1e8f)
+<br />
 
 -	Open IIS as an Admin by entering 'iss' into the Windows search bar, right-click the 'Internet Information Services (IIS) Manager' app, and select 'Run as administrator'.
 
-![Step 22](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/dbd6ea2d-cfeb-4f7e-9493-af6f60b88c3c)
+![Step 21](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/22bd3b9e-9efe-48ad-9a68-acd7dcca1e8f)
+
+<br />
 
 -	Register PHP from within IIS
 
 	-	Select 'PHP Manager' from the IIS Manager
+
+![Step 22](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/dbd6ea2d-cfeb-4f7e-9493-af6f60b88c3c)
+
+<br />
 
 ![Step 23](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/ed3f2243-7251-4d54-b282-b25e8605be2d)
 
@@ -165,7 +182,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 -	When prompted to find a destination, navigate to the PHP folder within (C:) and select 'php-cgi'
 
-  ![Step 25](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/344c773f-bd90-4891-ae9f-95c8acd393d5)
+![Step 25](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/344c773f-bd90-4891-ae9f-95c8acd393d5)
 
 -	Reload IIS (Open IIS, Stop and Start the server or select Restart).
 
