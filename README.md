@@ -39,11 +39,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 -  In the VM menu, begin to fill the required information in the <b>Basics</b> tab (feel free to use the above image as a guide to get started.)  Be sure to select a suitable sized vcpu set that best fits your financial needs and subscription plan.  In this case, Windows 10, 4CPUs is recommended.
-	-	Username: osTuser (or whatever you choose)
+	-	Username: <b>osTuser (or whatever you choose)</b>
 	
-	-	Password: Password12345 (or whatever you choose)
+	-	Password: <b>Password12345 (or whatever you choose)</b>
 	
-	-	Virtual Machine Name: vm1 (or whatever you choose
+	-	Virtual Machine Name: <b>vm1 (or whatever you choose)</b>
 
 
 ![Step 2](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/197196bb-abce-4c48-ae7a-6751366508df)
@@ -57,11 +57,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <br />
 
--	Once both the Basics and Networking tabs are complete, feel free to review any other tabs and select 'Review + create'.  Upon validation being completed, select 'Create'.
+-	Once both the Basics and Networking tabs are complete, feel free to review any other tabs and select 'Review + create'.  Upon validation being completed, select <b>Create</b>.
 
 ![Step 4](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/f5a12499-b396-4c47-a406-659408b4a963)
 
--	After deployment is complete, select 'Go to resource' to review your vm's information.
+-	After deployment is complete, select <b>Go to resource</b> to review your vm's information
 
 ![Step 5](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/c9b89330-32d6-4b1a-ad70-458783a503e9)
 
@@ -69,16 +69,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  
  <br />
 
--	Begin to type 'Remote Desktop Connection' in your Window's search bar and select the app.  Once it is open, copy vm1's public ip address into the 'Computer' drop down menu and click 'Connect'.
+-	Begin to type <b>Remote Desktop Connection</b> in your Window's search bar and select the app.  Once it is open, copy vm1's public ip address into the <b>Computer</b> drop down menu and click <b>Connect</b>.
 
 ![Step 7](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/eb246d7c-b3f7-4d00-886f-f5b4111276ec)
 
 -	The credentials entered will match the ones you created within vm1: 
 
-	-	Username: osTuser Password: 
-	-	Password12345.  
+	-	Username: <b>osTuser</b>
+	-	Password: <b>Password12345</b> 
 
--	Click 'OK' when complete and select 'Yes' if a verification warning appears.
+-	Click <b>OK</b> when complete and select <b>Yes</b> if a verification warning appears
 
 ![Step 8](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/ec060228-e700-4d35-8128-006f77ff7844)
  
@@ -93,6 +93,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 ![Step 10](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/b605c2f8-6525-47e3-8931-5913fa261cea)
+ 
  <br />
 
 
@@ -119,7 +120,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <h3>PHP 7.3.8</h3>
 
--	Create the directory C:\PHP
+-	Create the directory <b>C:\PHP</b>
 
 -	From the Installation Files, download <b>PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)</b> and unzip the contents into <b>C:\PHP</b>.
 
@@ -152,7 +153,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 ![Step 18](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/0e8b246d-3f59-4bea-8be6-7e8b04ee79a5)
 
 
--	For exercise purposes, use 'Password 1' for the root password.
+-	For exercise purposes, use <b>Password 1</b> for the root password.
 
 ![Step 19](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/22c8be13-edc8-41ea-9565-a5c66e9a8e4c)
 
@@ -160,7 +161,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <br />
 
--	Open IIS as an Admin by entering 'iss' into the Windows search bar, right-click the 'Internet Information Services (IIS) Manager' app, and select 'Run as administrator'.
+-	Open IIS as an Admin by entering <b>iss</b> into the Windows search bar, right-click the <b>Internet Information Services (IIS) Manager</b> app, and select <b>Run as administrator</b>.
 
 ![Step 21](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/22bd3b9e-9efe-48ad-9a68-acd7dcca1e8f)
 
@@ -168,7 +169,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 -	Register PHP from within IIS
 
-	-	Select 'PHP Manager' from the IIS Manager
+	-	Select <b>PHP Manager</b> from the IIS Manager
 
 ![Step 22](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/dbd6ea2d-cfeb-4f7e-9493-af6f60b88c3c)
 
@@ -273,32 +274,32 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <br />
 
--	Disable inheritance -> Remove All
+-	Click <b>Disable inheritance</b> -> <b>Remove All</b>
 
 
 ![Step 37](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/a79af6ec-74db-4224-bad7-ab9722eacca0)
 
 <br />
 
--	Enable new permissions by selecting 'Add'
+-	Enable new permissions by selecting <b>Add</b>
 
 ![Step 38](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/34f46ce1-a14e-4d50-96e4-e182668e4e06)
 
 <br />
 
--	Click 'Select a principal'.
+-	Click <b>Select a principal</b>.
 
 ![Step 39](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/c4f34930-7d6b-4e5f-86a0-c3e67d3b39b9)
 
 <br />
 
--	Enter 'Everyone' in the bottom text box -> click 'Check Names' -> Click 'Ok'.
+-	Enter <b>Everyone</b> in the bottom text box -> click <b>Check Names</b> -> Click <b>Ok</b>
 
 ![Step 40](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/6b20c411-1bb1-450a-bfd1-01df076803d2)
 
 <br />
 
--	Enable Full control for 'Everyone' and confirm with 'OK' -> 'Apply' -> 'OK'.
+-	Enable Full control for <b>Everyone</b> and confirm with <b>OK</b> -> <b>Apply</b> -> 'OK'
 
 ![Step 41](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/f81ab1f3-3235-4710-b24f-d8fa9fa2b6fa)
 
@@ -312,17 +313,17 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <h3>HeidiSQL</h3>
 
--	From the Installation Files, download and install HeidiSQL.
+-	From the Installation Files, download and install <b>HeidiSQL</b>
 
--	Open Heidi SQL
+-	Open <b>Heidi SQL</b>
 
 ![Step 44](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/ba1fc47e-558a-4232-9c69-029b1f90839a)
 
 <br />
 
--	Create a new session using the root/Password1 combination made during the intitial MySQL installation.
+-	Create a new session using the root/Password1 combination made during the intitial MySQL installation
 
--	Connect to the session
+-	Connect to the session by selecting <b>Open</b>
 
 ![Step 45](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/7f5e0cf7-c48d-46f6-8e83-b2fad1e5693e)
 
@@ -331,9 +332,9 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <br />
 
--	Create a database called “osTicket” by right-clicking within the window to the lefthand side.
+-	Create a database called <b>osTicket</b> by right-clicking within the window to the lefthand side
 
-	-	Click 'Create new' -> 'Database'
+-	Click <b>Create new</b> -> <b>Database</b>
 
 ![Step 47](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/a5c402bd-2904-4d53-aa0e-b61f6b71bc4c)
 
