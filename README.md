@@ -339,9 +339,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 ![Step 48](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/056d0701-1f7a-4016-b8c5-a1128fabf062)
 
-
-
-![Step 49](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/929024a2-08cb-40cb-a483-de83c042c9f8)
+<br />
 
 -	Continue Setting up osticket in the browser	
 
@@ -357,7 +355,9 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 -	Click “Install Now!”
 
-![Step 50](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/1f8c8fb9-52f3-4de4-b86d-0db8787eaac3)
+![Step 49](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/929024a2-08cb-40cb-a483-de83c042c9f8)
+
+<br />
 
 -	Congratulations, hopefully it is installed with no errors!
 
@@ -365,12 +365,17 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 -	End Users osTicket URL: http://localhost/osTicket/
 
-![Step 51](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/f274cffc-55c1-4c37-bfb4-dde1319d4f92)
+![Step 50](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/1f8c8fb9-52f3-4de4-b86d-0db8787eaac3)
 
-![Step 52](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/2f58eef1-85bb-4ab0-a952-d544e000f512)
+<br />
 
 -	Clean up
 
  	-	Delete: C:\inetpub\wwwroot\osTicket\setup
 
  	-	Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+![Step 51](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/f274cffc-55c1-4c37-bfb4-dde1319d4f92)
+
+![Step 52](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/2f58eef1-85bb-4ab0-a952-d544e000f512)
+
