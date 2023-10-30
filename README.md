@@ -380,3 +380,5 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 ![Step 52](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/2f58eef1-85bb-4ab0-a952-d544e000f512)
 
+<h2>Resource Cleanup</h2>
+
