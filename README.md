@@ -38,7 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 
--  In the VM menu, begin to fill the required information in the <b>Basics</b> tab (feel free to use the below image as a guide to get started.)  Be sure to select a suitable sized vcpu set that best fits your financial needs and subscription plan.  In this case, Windows 10, 4CPUs is recommended.
+-  In the VM menu, begin to fill the required information in the <b>Basics</b> tab (feel free to use the below image as a guide to get started.)  Be sure to select a suitable sized vcpu set that best fits your financial needs and subscription plan.
 	-	Username: <b>osTuser (or whatever you choose)</b>
 	
 	-	Password: <b>Password12345 (or whatever you choose)</b>
@@ -51,7 +51,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <br />
 
-<b>Note:</b> Keep the Virtual network in mind the <b>Networking</b> tab for future use anytime multiple VMs are created to ensure they are all on same vnet.
+<b>Note: Keep the Virtual network in mind, located in the <b>Networking</b> tab, for future use anytime multiple VMs are created to ensure they are all on the same vnet.</b> 
 
 ![Step 3](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/3673536e-c43c-4831-aa16-fb3f0c19094b)
 
@@ -69,6 +69,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  
  <br />
 
+<h2>Installing Files and Downloading osTicket</h2>
+
 -	Begin to type <b>Remote Desktop Connection</b> in your Window's search bar and select the app.  Once it is open, copy vm1's public ip address into the <b>Computer</b> drop down menu and click <b>Connect</b>.
 
 ![Step 7](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/eb246d7c-b3f7-4d00-886f-f5b4111276ec)
@@ -84,8 +86,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  
  <br />
 
-<h2>Installing Files and Downloading osTicket</h2>
-
 <b>The Following steps will all take place within vm1.</b>
 
 -	Provided below is the link containing all prerequisite files and programs needed to properly install osTicket:
@@ -99,7 +99,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <b>Install / Enable IIS in Windows WITH CGI and Common HTTP Features AND IIS Management Console.</b>
 
-- In order to do this, open the control panel within vm1, select 'Programs', and click 'Turn Windows features on or off'.  From there select the following:
+- In order to do this, open the control panel within vm1, select <b>Programs</b>, and click <b>Turn Windows features on or off</b>.  From there select the following:
 
 	-	Click Internet Information Services -> Web Management Tools -> Check [X] IIS Management Console
 
@@ -200,9 +200,9 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
  	-	Download osTicket from the Installation Files Folder
 
- 	-	Extract and copy “upload” folder to c:\inetpub\wwwroot
+ 	-	Extract and copy “upload” folder to <b>c:\inetpub\wwwroot</b>
 
- 	-	Within c:\inetpub\wwwroot, rename the folder “upload” to “osTicket”
+ 	-	Within c:\inetpub\wwwroot, rename the folder from “upload” to “osTicket”
 
 -	Reload IIS (Open IIS, Stop and Start the server).
 
@@ -220,6 +220,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <br />
 
 -	Note that some extensions are not enabled
+	-	<b>PHP IMAP Extension and Intl Extension</b> will be the additional options we'll enable next
 
 ![Step 30](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/5caed72c-558b-4b5c-a636-3b9f97345415)
 
@@ -379,6 +380,4 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 ![Step 51](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/f274cffc-55c1-4c37-bfb4-dde1319d4f92)
 
 ![Step 52](https://github.com/dgrofsick/osticket-prereqs/assets/148154704/2f58eef1-85bb-4ab0-a952-d544e000f512)
-
-<h2>Resource Cleanup</h2>
 
