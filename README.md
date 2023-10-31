@@ -38,7 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 
--  In the VM menu, begin to fill the required information in the <b>Basics</b> tab (feel free to use the above image as a guide to get started.)  Be sure to select a suitable sized vcpu set that best fits your financial needs and subscription plan.  In this case, Windows 10, 4CPUs is recommended.
+-  In the VM menu, begin to fill the required information in the <b>Basics</b> tab (feel free to use the below image as a guide to get started.)  Be sure to select a suitable sized vcpu set that best fits your financial needs and subscription plan.  In this case, Windows 10, 4CPUs is recommended.
 	-	Username: <b>osTuser (or whatever you choose)</b>
 	
 	-	Password: <b>Password12345 (or whatever you choose)</b>
